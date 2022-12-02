@@ -31,7 +31,7 @@ module hex2seg7 (
             9:  segments = 7'b1100111;
             10: segments = 7'b1110111;
             11: segments = 7'b1111100;
-            12: segments = 7'b0111001;
+            12: segments = 7'b1011000;
             13: segments = 7'b1011110;
             14: segments = 7'b1111001;
             15: segments = 7'b1110001;
