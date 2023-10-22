@@ -19,8 +19,8 @@ documentation:
   title:        "Hex to 7 Segment Decoder"      # Project title
   description:  "Displays an input 4-bit value as a hex digit"      # Short description of what your project does
   how_it_works: "A modern take on the classic TIL311"      # Longer description of how the project works
-  how_to_test:  "after reset, the counter should increase by one every second"      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
-  external_hw:  ""      # Describe any external hardware needed
+  how_to_test:  "7 segment display should display the digit inputted on data 0-3. Latch input will latch the data in on the rising edge. Blank input will clear the display. Decimal input is not latched."      # Instructions on how someone could test your project, include things like what buttons do what and how to set the clock if needed
+  external_hw:  "Requires a 7-segment display as wired on the TT02 test board."      # Describe any external hardware needed
   language:     "verilog" # other examples include Verilog, Amaranth, VHDL, etc
   doc_link:     ""      # URL to longer form documentation, eg the README.md in your repository
   clock_hz:     0       # Clock frequency in Hz (if required)
